@@ -1,0 +1,28 @@
+@import './styles.css';
+
+.container-detail{
+    border-radius: 20px;
+    width: 50vw;
+    height: 50vh;
+    display: flex;
+    padding: auto 50%;
+    overflow:auto;
+}
+.experience{
+    width:50%;
+    background-image: url('../img/knowledge.jpg');
+    background-size: cover;
+    cursor: pointer;
+}
+
+.knowledge{
+    width:50%;
+    background-image: url('../img/experience.jpeg');
+    background-size: cover;
+    cursor: pointer;
+}
+
+.knowledge:hover{
+    transition: 250ms;
+    filter: sepia(15%) saturate(1500%) hue-rotate(248deg) brightness(61%) contrast(80%);
+}
