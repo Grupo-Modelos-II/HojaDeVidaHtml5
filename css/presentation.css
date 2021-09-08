@@ -22,7 +22,17 @@
     cursor: pointer;
 }
 
-.knowledge:hover{
-    transition: 250ms;
-    filter: sepia(15%) saturate(1500%) hue-rotate(248deg) brightness(61%) contrast(80%);
+.filter {
+    transition: 250ms ease;
+    background-color: transparent;
+}
+
+.container-detail div:hover .filter {
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: ease;
+    opacity: 0.1;
+    background-color: red;
+    width: 100%;
+    height: 100%;
 }
